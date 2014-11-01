@@ -65,7 +65,7 @@ class Module implements ConfigProviderInterface, AutoloaderProviderInterface, Bo
 		return [
 			'Zend\Loader\StandardAutoloader' => [
 				'namespaces' => [
-					__NAMESPACE__ => __DIR__ . '/src/Access'
+					__NAMESPACE__ => __DIR__ . '/src/ChkAccess'
 				],
 			],
 		];

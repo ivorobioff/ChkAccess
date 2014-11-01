@@ -23,7 +23,7 @@
 
     "autoload": {
         "psr-4": {
-            "Developer\\ChkAccess\\": "."
+            "Developer\\ChkAccess\\": "./src/ChkAccess"
         }
     }
 }
