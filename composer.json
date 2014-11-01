@@ -1,0 +1,28 @@
+{
+    "name": "developer/chkaccess",
+    "description": "Module allowing control access to web pages based on certain conditions",
+    "authors": [
+        {
+            "name": "Igor Vorobiov",
+            "email": "igor.vorobioff@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zend-config": ">=2.2.2",
+        "zendframework/zend-loader": ">=2.2.2",
+        "zendframework/zend-modulemanager": ">=2.2.2",
+        "zendframework/zend-mvc": ">=2.2.2",
+        "zendframework/zend-servicemanager": ">=2.2.2",
+        "zendframework/zend-stdlib": ">=2.2.2",
+        "zendframework/zend-version": ">=2.2.2",
+        "zendframework/zend-http": ">=2.2.2"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Developer\\ChkAccess\\": "."
+        }
+    }
+}
