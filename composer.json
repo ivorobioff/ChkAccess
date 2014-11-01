@@ -1,6 +1,7 @@
 {
     "name": "developer/chkaccess",
-    "description": "Module allowing control access to web pages based on certain conditions",
+    "description": "Module allowing to control access to web pages based on certain conditions",
+    "license": "MIT",
     "authors": [
         {
             "name": "Igor Vorobiov",
